@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def data(n): 
+def points(n): 
     X1 = np.random.multivariate_normal([4, 3], 5*np.eye(2), n)
     X2 = np.random.multivariate_normal([-2, -1], 5*np.eye(2), n)
     X = np.concatenate((X1, X2))
@@ -9,12 +9,12 @@ def data(n):
     p = np.random.permutation(2*n)
     return X[p].T, Y[p].T
     
-def plot_data(X, Y):
+def plot_points(X, Y):
     plt.scatter(X[0], X[1], c = Y, s = 100,cmap=plt.cm.Spectral)
     
 ##
 def init(n):
-    X, Y = data(n)
+    X, Y = points(n)
     w = np.array([[0],[1]])
     b = 0
     return w, b, X, Y #{'X': X, 'Y': Y, 'w': w, 'b': b}
@@ -45,7 +45,7 @@ def plot_decision_boundary(pred_func, X, Y):
     
 def optimize(w, b, X, Y, a, n):
     m = X.shape[1] # nombre de points
-    plot_data(X, Y)
+    plot_points(X, Y)
     plt.draw()
     plt.pause(2)
     for i in range(n):
