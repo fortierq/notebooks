@@ -1,7 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import celluloid
-from celluloid import Camera
 
 def data(n): 
     X1 = np.random.multivariate_normal([4, 3], 5*np.eye(2), n)
