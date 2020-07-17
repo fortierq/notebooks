@@ -12,7 +12,6 @@ def points(n):
 def plot_points(X, Y):
     plt.scatter(X[0], X[1], c = Y, s = 100,cmap=plt.cm.Spectral)
     
-##
 def init(n):
     X, Y = points(n)
     w = np.array([[0],[1]])
@@ -30,16 +29,12 @@ def accuracy(w, b, X, Y):
     return float(np.sum(P == Y, axis = 1)/len(Y))
     
 def plot_decision_boundary(pred_func, X, Y):
-    # Set min and max values and give it some padding
     x_min, x_max = X[:, 0].min() - .5, X[:, 0].max() + .5
     y_min, y_max = X[:, 1].min() - .5, X[:, 1].max() + .5
     h = 0.01
-    # Generate a grid of points with distance h between them
     xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
-    # Predict the function value for the whole gid
     Z = pred_func(np.c_[xx.ravel(), yy.ravel()])
     Z = Z.reshape(xx.shape)
-    # Plot the contour and training examples
     plt.contourf(xx, yy, Z, cmap=plt.cm.Spectral, alpha=0.5)
     plt.scatter(X[:, 0], X[:, 1], c = Y, s = 100, cmap=plt.cm.Spectral)
     
@@ -53,8 +48,6 @@ def optimize(w, b, X, Y, a, n):
         if i % 50 == 0:
             plt.clf()
             plot_decision_boundary(lambda x: predict(w, b, x.T), X.T, Y)
-            #loss = -np.sum(Y*np.log(A) + (1 - Y)*np.log(1 - A))/m 
-            #print("Loss: ", loss) 
             print("Accuracy: ", accuracy(w, b, X, Y))
             plt.pause(2) 
         dw = np.dot(X, (A - Y).T)/m
