@@ -1,3 +1,5 @@
+# KMeans pour la compression d'images
+
 import cv2
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
