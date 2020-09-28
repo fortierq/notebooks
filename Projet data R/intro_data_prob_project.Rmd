@@ -1,0 +1,107 @@
+---
+title: "Exploring the BRFSS data"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    theme: spacelab
+---
+
+## Setup
+
+### Load packages
+
+```{r load-packages, message = FALSE}
+library(ggplot2)
+library(dplyr)
+```
+
+### Load data
+
+```{r load-data}
+load("brfss2013.Rdata")
+```
+
+* * *
+
+## Part 1: Data
+Data is collected by phone, uniformly at random among landlord adults (>= 18 years old) in the US. Thus the study excludes homeless people, who may be especially concerned with risk behaviors. Additional data was added in 2013 for young people. Moreover, I guess that only people who responded to phone are taken into account. Thus the study is not generalizable to the whole population, but only to a subset of it.
+
+Since there is no random assignment, this is an observational study and no causality can be proven, only correlation.
+
+* * *
+
+## Part 2: Research questions
+
+**Research quesion 1:**
+Is there any correlation between chccopd1 (Chronic Obstructive Pulmonary Disease) and smokday2 (Frequency Of Days Now Smoking)?
+
+**Research quesion 2:**
+Is there any correlation between sleep time (sleptim1) of men and women (based on the sex variable) and the number of children (children)?
+
+**Research quesion 3:**
+How are physical exercise (exerany2) and mental/physical health related?
+
+* * *
+
+## Part 3: Exploratory data analysis
+
+**Research quesion 1:**
+
+Let's see the number and percentage of Chronic Obstructive Pulmonary Disease among smokers and non-smokers:
+```{r}
+table(brfss2013$smokday2, brfss2013$chccopd1)
+```
+The amount of data collected seems enough to be significant.
+
+```{r}
+prop.table(table(brfss2013$smokday2, brfss2013$chccopd1), margin = 1)
+```
+
+Among the data collected, occasional smokers have ≈14.6% chance to have Chronic Obstructive Pulmonary Disease whereas non-smokers only have ≈12%, resulting in an increase of 100*(14.6-12)/12 ≈ 21.6%, which is significant. Comparing regular smokers to non-smokers is even more indicative: ≈18% against ≈12, i.e. an increase of 50% in risks.
+Therefore, the data seem to indicate that there is indeed a correlation between smoking and higher risk of Chronic Obstructive Pulmonary Disease.
+
+This is also confirmed visually by the following percentage bar plot:
+```{r}
+ggplot(brfss2013, aes(x=smokday2, fill = chccopd1)) +
+  geom_bar(position="fill")
+```
+
+**Research question 2:**
+Let's see some statistics about sleep time:
+```{r}
+summary(brfss2013$sleptim1)
+```
+
+We can see that some people reported very unusual sleep time (450 hours per day...), we remove those anomalies:
+```{r}
+brfss2013 <- subset(brfss2013, sleptim1 <= 24)
+```
+
+```{r}
+t <- table(brfss2013$sleptim1, brfss2013$children)
+d <- data.frame("Sleep" = brfss2013$sleptim1, "Children" = brfss2013$children, "Sex" = brfss2013$sex)
+d <- subset(d, Children < 10) # we remove the very high number of children since there are uninformative (too few of data)
+d <- (d %>% group_by(Children, Sex) %>% summarise(MeanSleep = mean(Sleep), n = n(), .groups = 'drop'))
+summary(d)
+ggplot(d, aes(x=Children, y=MeanSleep, color = Sex)) +
+  geom_line()
+
+```
+This curve tends to indicate that having children reduces someone's sleep time, especially with the first child. For a high number of childs, there is not enough data. Men and women have similar sleep duration, but women seems to sleep slighty more.
+
+
+**Research quesion 3:**
+Let's compare the average number of days in bad physical/mental health conditions: 
+```{r}
+df <- brfss2013 %>% group_by(exerany2) %>% summarise(PhysHealth = mean(physhlth, na.rm=TRUE), MentalHealth = mean(menthlth, na.rm=TRUE), n = n(), .groups = 'drop')
+df
+```
+```{r}
+ggplot(df, aes(x=exerany2, y = PhysHealth)) + geom_bar(stat="identity")
+```
+```{r}
+ggplot(df, aes(x=exerany2, y = MentalHealth)) + geom_bar(stat="identity")
+```
+
+The absence of physical exercise is highly correlated with bad physical health and mental health. However it is difficult to conclude about any causal possibility: maybe bad physical health cause people to do less exercise, maybe less exercice means worse health, or maybe there is correlation without causation.
