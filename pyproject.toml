@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ml"
+version = "0.1.0"
+description = ""
+authors = ["Quentin Fortier"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+cvxpy = "^1.1.12"
+jupyter = "^1.0.0"
+ipykernel = "^5.5.3"
+matplotlib = "^3.4.1"
+PyMPL = "^1.2.1"
+ipywidgets = "^7.6.3"
+ipympl = "^0.7.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
