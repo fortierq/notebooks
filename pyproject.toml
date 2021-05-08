@@ -13,6 +13,9 @@ matplotlib = "^3.4.1"
 PyMPL = "^1.2.1"
 ipywidgets = "^7.6.3"
 ipympl = "^0.7.0"
+sklearn = "^0.0"
+nbconvert = "^6.0.7"
+mip = "^1.13.0"
 
 [tool.poetry.dev-dependencies]
 
