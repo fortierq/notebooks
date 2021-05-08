@@ -1,0 +1,22 @@
+{%- extends 'base.html.j2' -%}
+
+<head>
+{% set nb_title = nb.metadata.get('title', '') or resources['metadata']['name'] %}
+<title>{{nb_title}}</title>
+</head>
+
+{% block body_header %}
+<body>
+  <div class="nb">
+  <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+{% endblock body_header %}
+
+{% block body_footer %}
+    </div>
+  </div>
+  </div>
+</body>
+{% endblock body_footer %}
+
+{{ super() }}
