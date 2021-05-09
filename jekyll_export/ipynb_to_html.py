@@ -12,12 +12,6 @@ def convert(files):
     re_title = re.compile('<h1.*>(.*)<a.*</h1>')
     for file in files:
         file = Path(file).resolve()
-        title = "Sommaire"
-        def repl_title(match):
-            nonlocal title
-            title = match.group(1)
-            print(f"Title: {title}")
-            return ''
         def repl_img(match):
             p = (file.parent / match.group(1)).resolve()
             print(f"Convert image {p}\n")
@@ -39,19 +33,17 @@ def convert(files):
                 if i != -1:
                     html_output = html_output[:i] + html_output[j + 5:]
                 html_output = re_img.sub(repl_img, html_output)
-                html_output = re_title.sub(repl_title, html_output, count=1)
             with open(output, "w") as f:
                 url = file.stem.lower().replace(' ', '')
-                toc = "false" if title is None else "true"
-                f.write(f"---\npermalink: /nb/{url}/\nlayout: nb\nauthor_profile: false\ntoc: {toc}\ntoc_label: {title} \ntoc_sticky: true\n---\n\n")
+                f.write(f"---\npermalink: /nb/{url}/\nlayout: nb\nauthor_profile: false\ntoc: true\ntoc_label: Sommaire\ntoc_sticky: true\n---\n\n")
                 f.write(html_output.replace("&#182;", ''))
 
 
 files = [
-    dir / "ML/SVM.ipynb",
-    dir / "ML/regression_lineaire.ipynb",
+    # dir / "ML/SVM.ipynb",
+    # dir / "ML/regression_lineaire.ipynb",
     # dir / "ML/KMeans.ipynb",
-    dir / "ML/logistic.ipynb",
+    # dir / "ML/logistic.ipynb",
     dir / "image_processing/hist_equal.ipynb",
     dir / "optimisation/pavage.ipynb", 
 ]
