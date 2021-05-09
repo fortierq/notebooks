@@ -8,17 +8,23 @@ dir = Path(__file__).parents[1]
 
 def convert(files):
     os.chdir(dir / "jekyll_export")
-    r = re.compile('<img src="(.*\.png)"')
-    for file, title in files:
+    re_img = re.compile('<img src="(.*\.png)"')
+    re_title = re.compile('<h1.*>(.*)<a.*</h1>')
+    for file in files:
         file = Path(file).resolve()
+        title = "Sommaire"
+        def repl_title(match):
+            nonlocal title
+            title = match.group(1)
+            print(f"Title: {title}")
+            return ''
         def repl_img(match):
-            if match:
-                p = (file.parent / match.group(1)).resolve()
-                print(f"found {p}")
-                if p.is_file():
-                    with open(p, "rb") as f:
-                        s = base64.b64encode(f.read()).decode('ascii')
-                        return f'<img src="data:image/png;base64,{s}"'
+            p = (file.parent / match.group(1)).resolve()
+            print(f"Convert image {p}\n")
+            if p.is_file():
+                with open(p, "rb") as f:
+                    s = base64.b64encode(f.read()).decode('ascii')
+                    return f'<img src="data:image/png;base64,{s}"'
 
         if str(file).find("checkpoint") == -1:
             output = Path("/home/qfortier/Documents/code/fortierq.github.io/_pages/nb") / file.with_suffix(".html").name.lower()
@@ -32,7 +38,8 @@ def convert(files):
                 i, j = html_output.find("<h1>"), html_output.find("</h1>")
                 if i != -1:
                     html_output = html_output[:i] + html_output[j + 5:]
-                html_output = r.sub(repl_img, html_output)
+                html_output = re_img.sub(repl_img, html_output)
+                html_output = re_title.sub(repl_title, html_output, count=1)
             with open(output, "w") as f:
                 url = file.stem.lower().replace(' ', '')
                 toc = "false" if title is None else "true"
@@ -41,11 +48,11 @@ def convert(files):
 
 
 files = [
-    # (dir / "ML/SVM.ipynb", None),
-    # (dir / "ML/regression_lineaire.ipynb", "Régression linéaire"),
-    # # dir / "ML/KMeans.ipynb",
-    # (dir / "ML/logistic.ipynb", "Régression logistique"),
-    # (dir / "image_processing/hist_equal.ipynb", "Égalisation d'histogramme")
-    (dir / "optimisation/pavage.ipynb", "Pavages")
+    dir / "ML/SVM.ipynb",
+    dir / "ML/regression_lineaire.ipynb",
+    # dir / "ML/KMeans.ipynb",
+    dir / "ML/logistic.ipynb",
+    dir / "image_processing/hist_equal.ipynb",
+    dir / "optimisation/pavage.ipynb", 
 ]
 convert(files)
