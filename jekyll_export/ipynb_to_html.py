@@ -1,3 +1,5 @@
+# Convert a notebook to an html file for use in Jekyll website
+
 from pathlib import Path
 import subprocess
 import os
@@ -24,7 +26,7 @@ def convert(files):
             output = Path("/home/qfortier/Documents/code/fortierq.github.io/_pages/nb") / file.with_suffix(".html").name.lower()
             Path.mkdir(output.parent, parents=True, exist_ok=True)
             print(f"\nConvert notebook {file} to {output}\n")
-            print(subprocess.run(f"poetry run jupyter nbconvert --execute --to exporter.JekyllExporter --template jekyll {str(file)} --output {output}", 
+            print(subprocess.run(f"poetry run jupyter-nbconvert --execute --to exporter.JekyllExporter --template jekyll {str(file)} --output {output}", 
                 shell=True,
                 capture_output=True))
             with open(output, "r") as f:
@@ -44,7 +46,9 @@ files = [
     # dir / "ML/regression_lineaire.ipynb",
     # dir / "ML/KMeans.ipynb",
     # dir / "ML/logistic.ipynb",
-    dir / "image_processing/hist_equal.ipynb",
-    dir / "optimisation/pavage.ipynb", 
+    # dir / "image_processing/hist_equal.ipynb",
+    # dir / "optimisation/pavage.ipynb", 
+    dir / "NN/DNN.ipynb",
+    # dir / "ML/GreenRover/green_rover.ipynb",
 ]
 convert(files)
