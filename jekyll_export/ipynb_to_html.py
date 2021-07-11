@@ -38,7 +38,9 @@ def convert(files):
             with open(output, "w") as f:
                 url = file.stem.lower().replace(' ', '')
                 f.write(f"---\npermalink: /nb/{url}/\nlayout: nb\nauthor_profile: false\ntoc: true\ntoc_label: Sommaire\ntoc_sticky: true\n---\n\n")
+                f.write("{% raw %}\n")  # to prevent liquid processing
                 f.write(html_output.replace("&#182;", ''))
+                f.write("{% endraw %}\n")
 
 
 files = [
@@ -48,7 +50,8 @@ files = [
     # dir / "ML/logistic.ipynb",
     # dir / "image_processing/hist_equal.ipynb",
     # dir / "optimisation/pavage.ipynb", 
-    dir / "NN/DNN.ipynb",
+    # dir / "NN/DNN.ipynb",
     # dir / "ML/GreenRover/green_rover.ipynb",
+    dir / "ML" / "voitures" / "voitures_clustering.ipynb",
 ]
 convert(files)
