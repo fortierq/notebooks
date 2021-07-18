@@ -1,0 +1,121 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-07-18T20:12:59.570165Z",
+      "format": null,
+      "last_modified": "2021-07-18T20:11:19.225347Z",
+      "mimetype": null,
+      "name": "green_rover.ipynb",
+      "path": "nb/machine_learning/GreenRover/green_rover.ipynb",
+      "size": 1888933,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-18T20:12:59.578165Z",
+      "format": null,
+      "last_modified": "2021-07-18T20:11:19.229347Z",
+      "mimetype": "image/png",
+      "name": "photo2.png",
+      "path": "nb/machine_learning/GreenRover/photo2.png",
+      "size": 226518,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-18T20:12:59.578165Z",
+      "format": null,
+      "last_modified": "2021-07-18T20:11:19.229347Z",
+      "mimetype": "application/octet-stream",
+      "name": "pas_herbes.bin",
+      "path": "nb/machine_learning/GreenRover/pas_herbes.bin",
+      "size": 614448,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-18T20:12:59.578165Z",
+      "format": null,
+      "last_modified": "2021-07-18T20:11:19.229347Z",
+      "mimetype": "image/png",
+      "name": "photo1.png",
+      "path": "nb/machine_learning/GreenRover/photo1.png",
+      "size": 220122,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-18T20:12:59.566165Z",
+      "format": null,
+      "last_modified": "2021-07-18T20:11:19.209347Z",
+      "mimetype": "image/png",
+      "name": "114raw_26052020.png",
+      "path": "nb/machine_learning/GreenRover/114raw_26052020.png",
+      "size": 235644,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-18T20:12:59.570165Z",
+      "format": null,
+      "last_modified": "2021-07-18T20:11:19.209347Z",
+      "mimetype": "image/png",
+      "name": "79raw_04062020.png",
+      "path": "nb/machine_learning/GreenRover/79raw_04062020.png",
+      "size": 230783,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-18T20:12:59.566165Z",
+      "format": null,
+      "last_modified": "2021-07-18T20:11:19.209347Z",
+      "mimetype": "image/png",
+      "name": "75raw_04062020.png",
+      "path": "nb/machine_learning/GreenRover/75raw_04062020.png",
+      "size": 230006,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-18T20:12:59.566165Z",
+      "format": null,
+      "last_modified": "2021-07-18T20:11:19.209347Z",
+      "mimetype": "image/png",
+      "name": "71raw_04062020.png",
+      "path": "nb/machine_learning/GreenRover/71raw_04062020.png",
+      "size": 230870,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-18T20:12:59.582165Z",
+      "format": null,
+      "last_modified": "2021-07-18T20:11:19.229347Z",
+      "mimetype": "text/x-python",
+      "name": "sujet1.py",
+      "path": "nb/machine_learning/GreenRover/sujet1.py",
+      "size": 10636,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-07-18T20:12:59.582165Z",
+  "format": "json",
+  "last_modified": "2021-07-18T20:12:59.582165Z",
+  "mimetype": null,
+  "name": "GreenRover",
+  "path": "nb/machine_learning/GreenRover",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
