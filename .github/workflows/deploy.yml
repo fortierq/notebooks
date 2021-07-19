@@ -23,7 +23,7 @@ jobs:
           python -m pip install -r requirements.txt
       - name: Build the JupyterLite site
         run: |
-          jupyter lite build --files nb/
+          jupyter lite build --files nb
       - name: Upload (dist)
         uses: actions/upload-artifact@v2
         with:
@@ -31,7 +31,7 @@ jobs:
           path: ./_output
 
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/master'
     needs: [build]
     runs-on: ubuntu-latest
     steps:
