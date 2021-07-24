@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2021-07-24T13:28:50.487802Z",
+      "created": "2021-07-24T13:29:38.072285Z",
       "format": null,
-      "last_modified": "2021-07-24T13:28:50.487802Z",
+      "last_modified": "2021-07-24T13:29:38.072285Z",
       "mimetype": null,
       "name": "optimisation",
       "path": "nb/optimisation",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2021-07-24T13:28:50.463801Z",
+      "created": "2021-07-24T13:29:38.048285Z",
       "format": null,
-      "last_modified": "2021-07-24T13:28:50.463801Z",
+      "last_modified": "2021-07-24T13:29:38.048285Z",
       "mimetype": null,
       "name": "deep_learning",
       "path": "nb/deep_learning",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2021-07-24T13:28:50.483802Z",
+      "created": "2021-07-24T13:29:38.068285Z",
       "format": null,
-      "last_modified": "2021-07-24T13:28:50.483802Z",
+      "last_modified": "2021-07-24T13:29:38.068285Z",
       "mimetype": null,
       "name": "machine_learning",
       "path": "nb/machine_learning",
@@ -38,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2021-07-24T13:28:50.471802Z",
+      "created": "2021-07-24T13:29:38.056285Z",
       "format": null,
-      "last_modified": "2021-07-24T13:28:50.471802Z",
+      "last_modified": "2021-07-24T13:29:38.056285Z",
       "mimetype": null,
       "name": "image_processing",
       "path": "nb/image_processing",
@@ -49,9 +49,9 @@
       "writable": true
     }
   ],
-  "created": "2021-07-24T13:28:50.483802Z",
+  "created": "2021-07-24T13:29:38.072285Z",
   "format": "json",
-  "last_modified": "2021-07-24T13:28:50.483802Z",
+  "last_modified": "2021-07-24T13:29:38.072285Z",
   "mimetype": null,
   "name": "nb",
   "path": "nb",
