@@ -1,0 +1,5 @@
+repos:
+-   repo: https://github.com/fortierq/notebooks
+    hooks:
+    - id: jupytext
+      args: [--from, ipynb, --to, "markdown"]
