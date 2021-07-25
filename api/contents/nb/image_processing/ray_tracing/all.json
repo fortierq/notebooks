@@ -2,20 +2,20 @@
   "content": [
     {
       "content": null,
-      "created": "2021-07-24T16:32:02.650449Z",
+      "created": "2021-07-25T19:46:21.360372Z",
       "format": null,
-      "last_modified": "2021-07-24T16:30:01.090070Z",
+      "last_modified": "2021-07-25T19:44:27.371523Z",
       "mimetype": null,
       "name": "ray_tracing.ipynb",
       "path": "nb/image_processing/ray_tracing/ray_tracing.ipynb",
-      "size": 986757,
+      "size": 1010044,
       "type": "notebook",
       "writable": true
     }
   ],
-  "created": "2021-07-24T16:32:02.650449Z",
+  "created": "2021-07-25T19:46:21.360372Z",
   "format": "json",
-  "last_modified": "2021-07-24T16:32:02.650449Z",
+  "last_modified": "2021-07-25T19:46:21.360372Z",
   "mimetype": null,
   "name": "ray_tracing",
   "path": "nb/image_processing/ray_tracing",
