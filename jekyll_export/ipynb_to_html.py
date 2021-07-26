@@ -7,7 +7,7 @@ import re
 import base64
             
 dir = Path(__file__).parents[1]
-
+dir_nb = dir / "nb"
 def convert(files):
     os.chdir(dir / "jekyll_export")
     re_img = re.compile('<img src="(.*\.png)"')
@@ -26,15 +26,16 @@ def convert(files):
             output = Path("/home/qfortier/Documents/code/fortierq.github.io/_pages/nb") / file.with_suffix(".html").name.lower()
             Path.mkdir(output.parent, parents=True, exist_ok=True)
             print(f"\nConvert notebook {file} to {output}\n")
+            # TODO
             print(subprocess.run(f"poetry run jupyter-nbconvert --execute --to exporter.JekyllExporter --template jekyll {str(file)} --output {output}", 
                 shell=True,
                 capture_output=True))
             with open(output, "r") as f:
                 html_output = f.read()
-                i, j = html_output.find("<h1>"), html_output.find("</h1>")
+                i, j = html_output.find( "<h1>"), html_output.find("</h1>")
                 if i != -1:
                     html_output = html_output[:i] + html_output[j + 5:]
-                html_output = re_img.sub(repl_img, html_output)
+                # html_output = re_img.sub(repl_img, html_output)
             with open(output, "w") as f:
                 url = file.stem.lower().replace(' ', '')
                 f.write(f"---\npermalink: /nb/{url}/\nlayout: nb\nauthor_profile: false\ntoc: true\ntoc_label: Sommaire\ntoc_sticky: true\n---\n\n")
@@ -44,14 +45,15 @@ def convert(files):
 
 
 files = [
-    # dir / "ML/SVM.ipynb",
-    # dir / "ML/regression_lineaire.ipynb",
-    # dir / "ML/KMeans.ipynb",
-    # dir / "ML/logistic.ipynb",
-    # dir / "image_processing/hist_equal.ipynb",
-    # dir / "optimisation/pavage.ipynb", 
-    # dir / "NN/DNN.ipynb",
-    # dir / "ML/GreenRover/green_rover.ipynb",
-    dir / "ML" / "voitures" / "voitures_clustering.ipynb",
+    # dir_nb / "ML/SVM.ipynb",
+    # dir_nb / "ML/regression_lineaire.ipynb",
+    # dir_nb / "ML/KMeans.ipynb",
+    # dir_nb / "ML/logistic.ipynb",
+    # dir_nb / "image_processing/hist_equal.ipynb",
+    # dir_nb / "optimisation/pavage.ipynb", 
+    # dir_nb / "NN/DNN.ipynb",
+    dir_nb / "deep_learning/green_rover/green_rover.ipynb",
+    # dir_nb / "ML" / "voitures" / "voitures_clustering.ipynb",
+    # dir_nb / "image_processing" / "ray_tracing" / "ray_tracing.ipynb",
 ]
 convert(files)
