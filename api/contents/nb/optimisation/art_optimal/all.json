@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-07-28T08:52:44.856369Z",
+      "format": null,
+      "last_modified": "2021-07-28T08:50:46.288799Z",
+      "mimetype": "text/plain",
+      "name": "turing.txt",
+      "path": "nb/optimisation/art_optimal/turing.txt",
+      "size": 481209,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-07-28T08:52:44.856369Z",
+      "format": null,
+      "last_modified": "2021-07-28T08:50:46.288799Z",
+      "mimetype": "text/markdown",
+      "name": "art_optimal.md",
+      "path": "nb/optimisation/art_optimal/art_optimal.md",
+      "size": 6281,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-07-28T08:52:44.856369Z",
+  "format": "json",
+  "last_modified": "2021-07-28T08:52:44.856369Z",
+  "mimetype": null,
+  "name": "art_optimal",
+  "path": "nb/optimisation/art_optimal",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

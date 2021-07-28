@@ -2,21 +2,21 @@
   "content": [
     {
       "content": null,
-      "created": "2021-07-26T20:32:22.155379Z",
+      "created": "2021-07-28T08:52:44.832367Z",
       "format": null,
-      "last_modified": "2021-07-26T20:30:14.085563Z",
+      "last_modified": "2021-07-28T08:50:46.260797Z",
       "mimetype": null,
       "name": "ray_tracing.ipynb",
       "path": "nb/image_processing/ray_tracing/ray_tracing.ipynb",
-      "size": 1775649,
+      "size": 1775663,
       "type": "notebook",
       "writable": true
     },
     {
       "content": null,
-      "created": "2021-07-26T20:32:22.151379Z",
+      "created": "2021-07-28T08:52:44.832367Z",
       "format": null,
-      "last_modified": "2021-07-26T20:30:14.077563Z",
+      "last_modified": "2021-07-28T08:50:46.252796Z",
       "mimetype": "text/x-python",
       "name": "ray.py",
       "path": "nb/image_processing/ray_tracing/ray.py",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2021-07-26T20:32:22.155379Z",
+  "created": "2021-07-28T08:52:44.832367Z",
   "format": "json",
-  "last_modified": "2021-07-26T20:32:22.155379Z",
+  "last_modified": "2021-07-28T08:52:44.832367Z",
   "mimetype": null,
   "name": "ray_tracing",
   "path": "nb/image_processing/ray_tracing",
