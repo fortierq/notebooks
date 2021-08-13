@@ -2,32 +2,32 @@
   "content": [
     {
       "content": null,
-      "created": "2021-07-28T08:52:44.832367Z",
+      "created": "2021-08-13T08:45:29.595460Z",
       "format": null,
-      "last_modified": "2021-07-28T08:52:44.832367Z",
-      "mimetype": null,
-      "name": "ray_tracing",
-      "path": "nb/image_processing/ray_tracing",
-      "size": null,
-      "type": "directory",
-      "writable": true
-    },
-    {
-      "content": null,
-      "created": "2021-07-28T08:52:44.824367Z",
-      "format": null,
-      "last_modified": "2021-07-28T08:52:44.824367Z",
+      "last_modified": "2021-08-13T08:45:29.595460Z",
       "mimetype": null,
       "name": "hist_equal",
       "path": "nb/image_processing/hist_equal",
       "size": null,
       "type": "directory",
       "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-08-13T08:45:29.603460Z",
+      "format": null,
+      "last_modified": "2021-08-13T08:45:29.603460Z",
+      "mimetype": null,
+      "name": "ray_tracing",
+      "path": "nb/image_processing/ray_tracing",
+      "size": null,
+      "type": "directory",
+      "writable": true
     }
   ],
-  "created": "2021-07-28T08:52:44.832367Z",
+  "created": "2021-08-13T08:45:29.603460Z",
   "format": "json",
-  "last_modified": "2021-07-28T08:52:44.832367Z",
+  "last_modified": "2021-08-13T08:45:29.603460Z",
   "mimetype": null,
   "name": "image_processing",
   "path": "nb/image_processing",
