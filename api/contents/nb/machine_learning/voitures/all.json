@@ -2,21 +2,21 @@
   "content": [
     {
       "content": null,
-      "created": "2021-12-28T14:03:50.841597Z",
+      "created": "2021-12-28T18:20:57.768733Z",
       "format": null,
-      "last_modified": "2021-12-28T14:01:39.938869Z",
+      "last_modified": "2021-12-28T18:18:38.659923Z",
       "mimetype": null,
       "name": "voitures_clustering.ipynb",
       "path": "nb/machine_learning/voitures/voitures_clustering.ipynb",
-      "size": 222214,
+      "size": 223261,
       "type": "notebook",
       "writable": true
     },
     {
       "content": null,
-      "created": "2021-12-28T14:03:50.845597Z",
+      "created": "2021-12-28T18:20:57.768733Z",
       "format": null,
-      "last_modified": "2021-12-28T14:01:39.938869Z",
+      "last_modified": "2021-12-28T18:18:38.659923Z",
       "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "name": "voitures_clustering.xlsx",
       "path": "nb/machine_learning/voitures/voitures_clustering.xlsx",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2021-12-28T14:03:50.845597Z",
+  "created": "2021-12-28T18:20:57.768733Z",
   "format": "json",
-  "last_modified": "2021-12-28T14:03:50.845597Z",
+  "last_modified": "2021-12-28T18:20:57.768733Z",
   "mimetype": null,
   "name": "voitures",
   "path": "nb/machine_learning/voitures",

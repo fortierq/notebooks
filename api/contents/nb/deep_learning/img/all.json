@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2021-12-28T14:03:50.801594Z",
+      "created": "2021-12-28T18:20:57.736733Z",
       "format": null,
-      "last_modified": "2021-12-28T14:01:39.878865Z",
+      "last_modified": "2021-12-28T18:18:38.611923Z",
       "mimetype": "image/png",
       "name": "dnn.png",
       "path": "nb/deep_learning/img/dnn.png",
@@ -13,9 +13,9 @@
       "writable": true
     }
   ],
-  "created": "2021-12-28T14:03:50.797594Z",
+  "created": "2021-12-28T18:20:57.736733Z",
   "format": "json",
-  "last_modified": "2021-12-28T14:03:50.797594Z",
+  "last_modified": "2021-12-28T18:20:57.736733Z",
   "mimetype": null,
   "name": "img",
   "path": "nb/deep_learning/img",
