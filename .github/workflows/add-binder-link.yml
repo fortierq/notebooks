@@ -7,4 +7,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: foo
-        uses: fortierq/add-binder-link-action@v1
+        uses: fortierq/add-binder-link-action
