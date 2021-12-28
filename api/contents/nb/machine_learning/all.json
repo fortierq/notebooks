@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2021-12-28T14:02:12.850189Z",
+      "created": "2021-12-28T14:03:50.817595Z",
       "format": null,
-      "last_modified": "2021-12-28T14:00:22.080575Z",
+      "last_modified": "2021-12-28T14:01:39.910867Z",
       "mimetype": null,
       "name": "KMeans.ipynb",
       "path": "nb/machine_learning/KMeans.ipynb",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2021-12-28T14:02:12.866190Z",
+      "created": "2021-12-28T14:03:50.841597Z",
       "format": null,
-      "last_modified": "2021-12-28T14:00:22.100576Z",
+      "last_modified": "2021-12-28T14:01:39.938869Z",
       "mimetype": null,
       "name": "regression_lineaire.ipynb",
       "path": "nb/machine_learning/regression_lineaire.ipynb",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2021-12-28T14:02:12.858190Z",
+      "created": "2021-12-28T14:03:50.829596Z",
       "format": null,
-      "last_modified": "2021-12-28T14:00:22.100576Z",
+      "last_modified": "2021-12-28T14:01:39.934868Z",
       "mimetype": null,
       "name": "logistic.ipynb",
       "path": "nb/machine_learning/logistic.ipynb",
@@ -38,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2021-12-28T14:02:12.854189Z",
+      "created": "2021-12-28T14:03:50.821595Z",
       "format": null,
-      "last_modified": "2021-12-28T14:00:22.084576Z",
+      "last_modified": "2021-12-28T14:01:39.918867Z",
       "mimetype": null,
       "name": "SVM.ipynb",
       "path": "nb/machine_learning/SVM.ipynb",
@@ -50,9 +50,9 @@
     },
     {
       "content": null,
-      "created": "2021-12-28T14:02:12.866190Z",
+      "created": "2021-12-28T14:03:50.845597Z",
       "format": null,
-      "last_modified": "2021-12-28T14:02:12.866190Z",
+      "last_modified": "2021-12-28T14:03:50.845597Z",
       "mimetype": null,
       "name": "voitures",
       "path": "nb/machine_learning/voitures",
@@ -62,9 +62,9 @@
     },
     {
       "content": null,
-      "created": "2021-12-28T14:02:12.854189Z",
+      "created": "2021-12-28T14:03:50.817595Z",
       "format": null,
-      "last_modified": "2021-12-28T14:02:12.854189Z",
+      "last_modified": "2021-12-28T14:03:50.817595Z",
       "mimetype": null,
       "name": "MtgPrices",
       "path": "nb/machine_learning/MtgPrices",
@@ -73,9 +73,9 @@
       "writable": true
     }
   ],
-  "created": "2021-12-28T14:02:12.866190Z",
+  "created": "2021-12-28T14:03:50.841597Z",
   "format": "json",
-  "last_modified": "2021-12-28T14:02:12.866190Z",
+  "last_modified": "2021-12-28T14:03:50.841597Z",
   "mimetype": null,
   "name": "machine_learning",
   "path": "nb/machine_learning",
