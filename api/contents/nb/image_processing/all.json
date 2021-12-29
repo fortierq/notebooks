@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2021-12-29T11:09:34.967137Z",
+      "created": "2021-12-29T11:46:02.915113Z",
       "format": null,
-      "last_modified": "2021-12-29T11:09:34.967137Z",
+      "last_modified": "2021-12-29T11:46:02.915113Z",
       "mimetype": null,
       "name": "hist_equal",
       "path": "nb/image_processing/hist_equal",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2021-12-29T11:09:34.975137Z",
+      "created": "2021-12-29T11:46:02.923113Z",
       "format": null,
-      "last_modified": "2021-12-29T11:09:34.975137Z",
+      "last_modified": "2021-12-29T11:46:02.923113Z",
       "mimetype": null,
       "name": "ray_tracing",
       "path": "nb/image_processing/ray_tracing",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2021-12-29T11:09:34.975137Z",
+  "created": "2021-12-29T11:46:02.923113Z",
   "format": "json",
-  "last_modified": "2021-12-29T11:09:34.975137Z",
+  "last_modified": "2021-12-29T11:46:02.923113Z",
   "mimetype": null,
   "name": "image_processing",
   "path": "nb/image_processing",
