@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2021-12-30T10:04:46.948074Z",
+      "created": "2021-12-30T10:20:41.732908Z",
       "format": null,
-      "last_modified": "2021-12-30T10:04:46.948074Z",
+      "last_modified": "2021-12-30T10:20:41.732908Z",
       "mimetype": null,
       "name": "art_optimal",
       "path": "nb/optimisation/art_optimal",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2021-12-30T10:04:46.952074Z",
+      "created": "2021-12-30T10:20:41.732908Z",
       "format": null,
-      "last_modified": "2021-12-30T10:04:46.952074Z",
+      "last_modified": "2021-12-30T10:20:41.732908Z",
       "mimetype": null,
       "name": "pavage",
       "path": "nb/optimisation/pavage",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2021-12-30T10:04:46.952074Z",
+  "created": "2021-12-30T10:20:41.732908Z",
   "format": "json",
-  "last_modified": "2021-12-30T10:04:46.952074Z",
+  "last_modified": "2021-12-30T10:20:41.732908Z",
   "mimetype": null,
   "name": "optimisation",
   "path": "nb/optimisation",
