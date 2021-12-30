@@ -2,21 +2,21 @@
   "content": [
     {
       "content": null,
-      "created": "2021-12-29T11:46:02.927114Z",
+      "created": "2021-12-30T09:40:24.772709Z",
       "format": null,
-      "last_modified": "2021-12-29T11:45:59.087068Z",
+      "last_modified": "2021-12-30T09:40:20.396739Z",
       "mimetype": null,
       "name": "ray_tracing.ipynb",
       "path": "nb/image_processing/ray_tracing/ray_tracing.ipynb",
-      "size": 1775881,
+      "size": 1775882,
       "type": "notebook",
       "writable": true
     },
     {
       "content": null,
-      "created": "2021-12-29T11:46:02.923113Z",
+      "created": "2021-12-30T09:40:24.768708Z",
       "format": null,
-      "last_modified": "2021-12-29T11:43:58.109560Z",
+      "last_modified": "2021-12-30T09:37:58.329706Z",
       "mimetype": "text/x-python",
       "name": "ray.py",
       "path": "nb/image_processing/ray_tracing/ray.py",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2021-12-29T11:46:02.923113Z",
+      "created": "2021-12-30T09:40:24.768708Z",
       "format": null,
-      "last_modified": "2021-12-29T11:43:58.109560Z",
+      "last_modified": "2021-12-30T09:37:58.329706Z",
       "mimetype": "image/png",
       "name": "ray.png",
       "path": "nb/image_processing/ray_tracing/ray.png",
@@ -37,9 +37,9 @@
       "writable": true
     }
   ],
-  "created": "2021-12-29T11:46:02.923113Z",
+  "created": "2021-12-30T09:40:24.772709Z",
   "format": "json",
-  "last_modified": "2021-12-29T11:46:02.923113Z",
+  "last_modified": "2021-12-30T09:40:24.772709Z",
   "mimetype": null,
   "name": "ray_tracing",
   "path": "nb/image_processing/ray_tracing",
