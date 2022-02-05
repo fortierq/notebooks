@@ -2,20 +2,20 @@
   "content": [
     {
       "content": null,
-      "created": "2022-01-18T14:05:29.729443Z",
+      "created": "2022-02-05T19:14:47.800618Z",
       "format": null,
-      "last_modified": "2022-01-18T14:05:25.565204Z",
+      "last_modified": "2022-02-05T19:14:43.532598Z",
       "mimetype": null,
       "name": "MTG_prices.ipynb",
       "path": "nb/machine_learning/MtgPrices/MTG_prices.ipynb",
-      "size": 802381,
+      "size": 802382,
       "type": "notebook",
       "writable": true
     }
   ],
-  "created": "2022-01-18T14:05:29.729443Z",
+  "created": "2022-02-05T19:14:47.796618Z",
   "format": "json",
-  "last_modified": "2022-01-18T14:05:29.729443Z",
+  "last_modified": "2022-02-05T19:14:47.796618Z",
   "mimetype": null,
   "name": "MtgPrices",
   "path": "nb/machine_learning/MtgPrices",

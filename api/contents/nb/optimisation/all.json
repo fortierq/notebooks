@@ -2,32 +2,32 @@
   "content": [
     {
       "content": null,
-      "created": "2022-01-18T14:05:29.749444Z",
+      "created": "2022-02-05T19:14:47.832619Z",
       "format": null,
-      "last_modified": "2022-01-18T14:05:29.749444Z",
-      "mimetype": null,
-      "name": "pavage",
-      "path": "nb/optimisation/pavage",
-      "size": null,
-      "type": "directory",
-      "writable": true
-    },
-    {
-      "content": null,
-      "created": "2022-01-18T14:05:29.745444Z",
-      "format": null,
-      "last_modified": "2022-01-18T14:05:29.745444Z",
+      "last_modified": "2022-02-05T19:14:47.832619Z",
       "mimetype": null,
       "name": "art_optimal",
       "path": "nb/optimisation/art_optimal",
       "size": null,
       "type": "directory",
       "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-05T19:14:47.836619Z",
+      "format": null,
+      "last_modified": "2022-02-05T19:14:47.836619Z",
+      "mimetype": null,
+      "name": "pavage",
+      "path": "nb/optimisation/pavage",
+      "size": null,
+      "type": "directory",
+      "writable": true
     }
   ],
-  "created": "2022-01-18T14:05:29.749444Z",
+  "created": "2022-02-05T19:14:47.836619Z",
   "format": "json",
-  "last_modified": "2022-01-18T14:05:29.749444Z",
+  "last_modified": "2022-02-05T19:14:47.836619Z",
   "mimetype": null,
   "name": "optimisation",
   "path": "nb/optimisation",
