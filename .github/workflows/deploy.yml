@@ -25,7 +25,9 @@ jobs:
       - uses: fortierq/add-binder-link-action@v1
         with:
           force: 'true'
-      
+          env: 'fortierq/notebooks'
+          branch-env: 'master'
+
       - name: Build the JupyterLite site
         run: |
           jupyter lite build --files nb
