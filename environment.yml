@@ -1,0 +1,10 @@
+name: notebooks
+
+dependencies:
+  - numpy
+  - matplotlib
+  - pandas
+  - plotly.express
+  - sklearn
+  - pip:
+    - nbgitpuller
