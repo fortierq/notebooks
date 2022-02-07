@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-02-07T18:02:17.592810Z",
+      "created": "2022-02-07T19:32:27.546094Z",
       "format": null,
-      "last_modified": "2022-02-07T18:02:17.592810Z",
+      "last_modified": "2022-02-07T19:32:27.546094Z",
       "mimetype": null,
       "name": "machine_learning",
       "path": "nb/machine_learning",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-07T18:02:17.544809Z",
+      "created": "2022-02-07T19:32:27.502093Z",
       "format": null,
-      "last_modified": "2022-02-07T18:02:17.544809Z",
+      "last_modified": "2022-02-07T19:32:27.502093Z",
       "mimetype": null,
       "name": "geometry",
       "path": "nb/geometry",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-07T18:02:17.600810Z",
+      "created": "2022-02-07T19:32:27.550095Z",
       "format": null,
-      "last_modified": "2022-02-07T18:02:17.600810Z",
+      "last_modified": "2022-02-07T19:32:27.550095Z",
       "mimetype": null,
       "name": "optimisation",
       "path": "nb/optimisation",
@@ -38,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-07T18:02:17.552809Z",
+      "created": "2022-02-07T19:32:27.510093Z",
       "format": null,
-      "last_modified": "2022-02-07T18:02:17.552809Z",
+      "last_modified": "2022-02-07T19:32:27.510093Z",
       "mimetype": null,
       "name": "image_processing",
       "path": "nb/image_processing",
@@ -50,9 +50,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-07T18:02:17.544809Z",
+      "created": "2022-02-07T19:32:27.502093Z",
       "format": null,
-      "last_modified": "2022-02-07T18:02:17.544809Z",
+      "last_modified": "2022-02-07T19:32:27.502093Z",
       "mimetype": null,
       "name": "deep_learning",
       "path": "nb/deep_learning",
@@ -61,9 +61,9 @@
       "writable": true
     }
   ],
-  "created": "2022-02-07T18:02:17.596810Z",
+  "created": "2022-02-07T19:32:27.550095Z",
   "format": "json",
-  "last_modified": "2022-02-07T18:02:17.596810Z",
+  "last_modified": "2022-02-07T19:32:27.550095Z",
   "mimetype": null,
   "name": "nb",
   "path": "nb",
