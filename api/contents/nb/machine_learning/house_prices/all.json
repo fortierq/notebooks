@@ -2,21 +2,21 @@
   "content": [
     {
       "content": null,
-      "created": "2022-02-07T19:32:27.526094Z",
+      "created": "2022-02-07T19:35:26.777353Z",
       "format": null,
-      "last_modified": "2022-02-07T19:32:23.318055Z",
+      "last_modified": "2022-02-07T19:35:23.717195Z",
       "mimetype": null,
       "name": "house_prices.ipynb",
       "path": "nb/machine_learning/house_prices/house_prices.ipynb",
-      "size": 3745157,
+      "size": 3745158,
       "type": "notebook",
       "writable": true
     },
     {
       "content": null,
-      "created": "2022-02-07T19:32:27.522094Z",
+      "created": "2022-02-07T19:35:26.769352Z",
       "format": null,
-      "last_modified": "2022-02-07T19:32:27.522094Z",
+      "last_modified": "2022-02-07T19:35:26.769352Z",
       "mimetype": null,
       "name": "data",
       "path": "nb/machine_learning/house_prices/data",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2022-02-07T19:32:27.526094Z",
+  "created": "2022-02-07T19:35:26.773352Z",
   "format": "json",
-  "last_modified": "2022-02-07T19:32:27.526094Z",
+  "last_modified": "2022-02-07T19:35:26.773352Z",
   "mimetype": null,
   "name": "house_prices",
   "path": "nb/machine_learning/house_prices",
