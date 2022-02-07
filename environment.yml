@@ -4,7 +4,7 @@ dependencies:
   - numpy
   - matplotlib
   - pandas
-  - plotly.express
-  - sklearn
   - pip:
+    - plotly.express
+    - sklearn
     - nbgitpuller
