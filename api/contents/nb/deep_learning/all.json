@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-02-05T19:14:47.780618Z",
+      "created": "2022-02-07T18:02:17.544809Z",
       "format": null,
-      "last_modified": "2022-02-05T19:14:47.780618Z",
+      "last_modified": "2022-02-07T18:02:17.544809Z",
       "mimetype": null,
       "name": "img",
       "path": "nb/deep_learning/img",
@@ -14,21 +14,21 @@
     },
     {
       "content": null,
-      "created": "2022-02-05T19:14:47.760618Z",
+      "created": "2022-02-07T18:02:17.524809Z",
       "format": null,
-      "last_modified": "2022-02-05T19:14:43.684599Z",
+      "last_modified": "2022-02-07T18:02:13.096781Z",
       "mimetype": null,
       "name": "DNN.ipynb",
       "path": "nb/deep_learning/DNN.ipynb",
-      "size": 90611,
+      "size": 90612,
       "type": "notebook",
       "writable": true
     },
     {
       "content": null,
-      "created": "2022-02-05T19:14:47.776618Z",
+      "created": "2022-02-07T18:02:17.540809Z",
       "format": null,
-      "last_modified": "2022-02-05T19:14:47.776618Z",
+      "last_modified": "2022-02-07T18:02:17.540809Z",
       "mimetype": null,
       "name": "green_rover",
       "path": "nb/deep_learning/green_rover",
@@ -37,9 +37,9 @@
       "writable": true
     }
   ],
-  "created": "2022-02-05T19:14:47.776618Z",
+  "created": "2022-02-07T18:02:17.544809Z",
   "format": "json",
-  "last_modified": "2022-02-05T19:14:47.776618Z",
+  "last_modified": "2022-02-07T18:02:17.544809Z",
   "mimetype": null,
   "name": "deep_learning",
   "path": "nb/deep_learning",
