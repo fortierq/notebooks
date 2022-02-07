@@ -2,20 +2,20 @@
   "content": [
     {
       "content": null,
-      "created": "2022-02-07T20:13:15.387751Z",
+      "created": "2022-02-07T21:07:55.648058Z",
       "format": null,
-      "last_modified": "2022-02-07T20:13:10.923719Z",
+      "last_modified": "2022-02-07T21:07:51.460021Z",
       "mimetype": null,
       "name": "mnist_knn.ipynb",
       "path": "nb/machine_learning/mnist/mnist_knn.ipynb",
-      "size": 93816,
+      "size": 93948,
       "type": "notebook",
       "writable": true
     }
   ],
-  "created": "2022-02-07T20:13:15.387751Z",
+  "created": "2022-02-07T21:07:55.648058Z",
   "format": "json",
-  "last_modified": "2022-02-07T20:13:15.387751Z",
+  "last_modified": "2022-02-07T21:07:55.648058Z",
   "mimetype": null,
   "name": "mnist",
   "path": "nb/machine_learning/mnist",
