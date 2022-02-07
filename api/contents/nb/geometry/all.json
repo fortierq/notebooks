@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-02-07T19:35:26.749351Z",
+      "created": "2022-02-07T19:37:00.062984Z",
       "format": null,
-      "last_modified": "2022-02-07T19:35:23.805199Z",
+      "last_modified": "2022-02-07T19:36:55.462887Z",
       "mimetype": null,
       "name": "self_avoiding_walk.ipynb",
       "path": "nb/geometry/self_avoiding_walk.ipynb",
@@ -13,9 +13,9 @@
       "writable": true
     }
   ],
-  "created": "2022-02-07T19:35:26.749351Z",
+  "created": "2022-02-07T19:37:00.062984Z",
   "format": "json",
-  "last_modified": "2022-02-07T19:35:26.749351Z",
+  "last_modified": "2022-02-07T19:37:00.062984Z",
   "mimetype": null,
   "name": "geometry",
   "path": "nb/geometry",
