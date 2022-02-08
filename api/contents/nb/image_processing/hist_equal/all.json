@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-02-07T21:13:57.139695Z",
+      "created": "2022-02-08T10:50:10.970184Z",
       "format": null,
-      "last_modified": "2022-02-07T21:12:05.138284Z",
+      "last_modified": "2022-02-08T10:47:59.390277Z",
       "mimetype": "image/png",
       "name": "foret_eg.png",
       "path": "nb/image_processing/hist_equal/foret_eg.png",
@@ -14,21 +14,21 @@
     },
     {
       "content": null,
-      "created": "2022-02-07T21:13:57.143694Z",
+      "created": "2022-02-08T10:50:10.970184Z",
       "format": null,
-      "last_modified": "2022-02-07T21:13:53.035792Z",
+      "last_modified": "2022-02-08T10:50:06.594187Z",
       "mimetype": null,
       "name": "hist_equal.ipynb",
       "path": "nb/image_processing/hist_equal/hist_equal.ipynb",
-      "size": 1838053,
+      "size": 1838054,
       "type": "notebook",
       "writable": true
     },
     {
       "content": null,
-      "created": "2022-02-07T21:13:57.139695Z",
+      "created": "2022-02-08T10:50:10.966184Z",
       "format": null,
-      "last_modified": "2022-02-07T21:12:05.138284Z",
+      "last_modified": "2022-02-08T10:47:59.386277Z",
       "mimetype": "image/jpeg",
       "name": "foret.jpg",
       "path": "nb/image_processing/hist_equal/foret.jpg",
@@ -37,9 +37,9 @@
       "writable": true
     }
   ],
-  "created": "2022-02-07T21:13:57.143694Z",
+  "created": "2022-02-08T10:50:10.970184Z",
   "format": "json",
-  "last_modified": "2022-02-07T21:13:57.143694Z",
+  "last_modified": "2022-02-08T10:50:10.970184Z",
   "mimetype": null,
   "name": "hist_equal",
   "path": "nb/image_processing/hist_equal",
