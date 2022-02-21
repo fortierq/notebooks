@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-02-08T10:50:11.026184Z",
+      "created": "2022-02-21T11:36:32.527699Z",
       "format": null,
-      "last_modified": "2022-02-08T10:50:11.026184Z",
+      "last_modified": "2022-02-21T11:36:32.527699Z",
       "mimetype": null,
       "name": "art_optimal",
       "path": "nb/optimisation/art_optimal",
@@ -14,20 +14,32 @@
     },
     {
       "content": null,
-      "created": "2022-02-08T10:50:11.030184Z",
+      "created": "2022-02-21T11:36:32.531699Z",
       "format": null,
-      "last_modified": "2022-02-08T10:50:11.030184Z",
+      "last_modified": "2022-02-21T11:36:32.531699Z",
       "mimetype": null,
       "name": "pavage",
       "path": "nb/optimisation/pavage",
       "size": null,
       "type": "directory",
       "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-21T11:36:32.535699Z",
+      "format": null,
+      "last_modified": "2022-02-21T11:36:32.535699Z",
+      "mimetype": null,
+      "name": "tsp",
+      "path": "nb/optimisation/tsp",
+      "size": null,
+      "type": "directory",
+      "writable": true
     }
   ],
-  "created": "2022-02-08T10:50:11.026184Z",
+  "created": "2022-02-21T11:36:32.531699Z",
   "format": "json",
-  "last_modified": "2022-02-08T10:50:11.026184Z",
+  "last_modified": "2022-02-21T11:36:32.531699Z",
   "mimetype": null,
   "name": "optimisation",
   "path": "nb/optimisation",

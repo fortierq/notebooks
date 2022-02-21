@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-02-08T10:50:11.026184Z",
+      "created": "2022-02-21T11:36:32.531699Z",
       "format": null,
-      "last_modified": "2022-02-08T10:50:11.026184Z",
+      "last_modified": "2022-02-21T11:36:32.531699Z",
       "mimetype": null,
       "name": "img",
       "path": "nb/optimisation/pavage/img",
@@ -14,20 +14,20 @@
     },
     {
       "content": null,
-      "created": "2022-02-08T10:50:11.030184Z",
+      "created": "2022-02-21T11:36:32.531699Z",
       "format": null,
-      "last_modified": "2022-02-08T10:50:06.526187Z",
+      "last_modified": "2022-02-21T11:36:28.639676Z",
       "mimetype": null,
       "name": "pavage.ipynb",
       "path": "nb/optimisation/pavage/pavage.ipynb",
-      "size": 80000,
+      "size": 80005,
       "type": "notebook",
       "writable": true
     }
   ],
-  "created": "2022-02-08T10:50:11.030184Z",
+  "created": "2022-02-21T11:36:32.531699Z",
   "format": "json",
-  "last_modified": "2022-02-08T10:50:11.030184Z",
+  "last_modified": "2022-02-21T11:36:32.531699Z",
   "mimetype": null,
   "name": "pavage",
   "path": "nb/optimisation/pavage",

@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-02-21T11:36:32.531699Z",
+      "format": null,
+      "last_modified": "2022-02-21T11:36:28.659677Z",
+      "mimetype": null,
+      "name": "tsp.ipynb",
+      "path": "nb/optimisation/tsp/tsp.ipynb",
+      "size": 671348,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-02-21T11:36:32.539700Z",
+      "format": null,
+      "last_modified": "2022-02-21T11:34:51.155101Z",
+      "mimetype": "text/csv",
+      "name": "villes_france.csv",
+      "path": "nb/optimisation/tsp/villes_france.csv",
+      "size": 8032096,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2022-02-21T11:36:32.535699Z",
+  "format": "json",
+  "last_modified": "2022-02-21T11:36:32.535699Z",
+  "mimetype": null,
+  "name": "tsp",
+  "path": "nb/optimisation/tsp",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
