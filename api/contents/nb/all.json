@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-03-12T23:09:15.471337Z",
+      "created": "2022-03-12T23:28:03.802980Z",
       "format": null,
-      "last_modified": "2022-03-12T23:09:15.471337Z",
+      "last_modified": "2022-03-12T23:28:03.802980Z",
       "mimetype": null,
       "name": "machine_learning",
       "path": "nb/machine_learning",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-03-12T23:09:15.503337Z",
+      "created": "2022-03-12T23:28:03.838982Z",
       "format": null,
-      "last_modified": "2022-03-12T23:09:15.503337Z",
+      "last_modified": "2022-03-12T23:28:03.838982Z",
       "mimetype": null,
       "name": "stats",
       "path": "nb/stats",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2022-03-12T23:09:15.419337Z",
+      "created": "2022-03-12T23:28:03.742976Z",
       "format": null,
-      "last_modified": "2022-03-12T23:09:15.419337Z",
+      "last_modified": "2022-03-12T23:28:03.742976Z",
       "mimetype": null,
       "name": "geometry",
       "path": "nb/geometry",
@@ -38,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2022-03-12T23:09:15.475337Z",
+      "created": "2022-03-12T23:28:03.810980Z",
       "format": null,
-      "last_modified": "2022-03-12T23:09:15.475337Z",
+      "last_modified": "2022-03-12T23:28:03.810980Z",
       "mimetype": null,
       "name": "optimisation",
       "path": "nb/optimisation",
@@ -50,9 +50,9 @@
     },
     {
       "content": null,
-      "created": "2022-03-12T23:09:15.427337Z",
+      "created": "2022-03-12T23:28:03.754977Z",
       "format": null,
-      "last_modified": "2022-03-12T23:09:15.427337Z",
+      "last_modified": "2022-03-12T23:28:03.754977Z",
       "mimetype": null,
       "name": "image_processing",
       "path": "nb/image_processing",
@@ -62,9 +62,9 @@
     },
     {
       "content": null,
-      "created": "2022-03-12T23:09:15.415337Z",
+      "created": "2022-03-12T23:28:03.742976Z",
       "format": null,
-      "last_modified": "2022-03-12T23:09:15.415337Z",
+      "last_modified": "2022-03-12T23:28:03.742976Z",
       "mimetype": null,
       "name": "deep_learning",
       "path": "nb/deep_learning",
@@ -73,9 +73,9 @@
       "writable": true
     }
   ],
-  "created": "2022-03-12T23:09:15.503337Z",
+  "created": "2022-03-12T23:28:03.838982Z",
   "format": "json",
-  "last_modified": "2022-03-12T23:09:15.503337Z",
+  "last_modified": "2022-03-12T23:28:03.838982Z",
   "mimetype": null,
   "name": "nb",
   "path": "nb",
