@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-02-21T11:36:32.527699Z",
+      "created": "2022-03-12T23:09:15.471337Z",
       "format": null,
-      "last_modified": "2022-02-21T11:36:32.527699Z",
+      "last_modified": "2022-03-12T23:09:15.471337Z",
       "mimetype": null,
       "name": "machine_learning",
       "path": "nb/machine_learning",
@@ -14,9 +14,21 @@
     },
     {
       "content": null,
-      "created": "2022-02-21T11:36:32.487699Z",
+      "created": "2022-03-12T23:09:15.503337Z",
       "format": null,
-      "last_modified": "2022-02-21T11:36:32.487699Z",
+      "last_modified": "2022-03-12T23:09:15.503337Z",
+      "mimetype": null,
+      "name": "stats",
+      "path": "nb/stats",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-03-12T23:09:15.419337Z",
+      "format": null,
+      "last_modified": "2022-03-12T23:09:15.419337Z",
       "mimetype": null,
       "name": "geometry",
       "path": "nb/geometry",
@@ -26,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-21T11:36:32.531699Z",
+      "created": "2022-03-12T23:09:15.475337Z",
       "format": null,
-      "last_modified": "2022-02-21T11:36:32.531699Z",
+      "last_modified": "2022-03-12T23:09:15.475337Z",
       "mimetype": null,
       "name": "optimisation",
       "path": "nb/optimisation",
@@ -38,9 +50,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-21T11:36:32.491699Z",
+      "created": "2022-03-12T23:09:15.427337Z",
       "format": null,
-      "last_modified": "2022-02-21T11:36:32.491699Z",
+      "last_modified": "2022-03-12T23:09:15.427337Z",
       "mimetype": null,
       "name": "image_processing",
       "path": "nb/image_processing",
@@ -50,9 +62,9 @@
     },
     {
       "content": null,
-      "created": "2022-02-21T11:36:32.483699Z",
+      "created": "2022-03-12T23:09:15.415337Z",
       "format": null,
-      "last_modified": "2022-02-21T11:36:32.483699Z",
+      "last_modified": "2022-03-12T23:09:15.415337Z",
       "mimetype": null,
       "name": "deep_learning",
       "path": "nb/deep_learning",
@@ -61,9 +73,9 @@
       "writable": true
     }
   ],
-  "created": "2022-02-21T11:36:32.527699Z",
+  "created": "2022-03-12T23:09:15.503337Z",
   "format": "json",
-  "last_modified": "2022-02-21T11:36:32.527699Z",
+  "last_modified": "2022-03-12T23:09:15.503337Z",
   "mimetype": null,
   "name": "nb",
   "path": "nb",
