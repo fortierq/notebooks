@@ -2,32 +2,32 @@
   "content": [
     {
       "content": null,
-      "created": "2022-04-24T11:30:46.048657Z",
+      "created": "2022-04-28T18:51:55.518719Z",
       "format": null,
-      "last_modified": "2022-04-24T11:28:49.319978Z",
-      "mimetype": "text/csv",
-      "name": "test.csv",
-      "path": "nb/machine_learning/house_prices/data/test.csv",
-      "size": 451405,
-      "type": "file",
-      "writable": true
-    },
-    {
-      "content": null,
-      "created": "2022-04-24T11:30:46.052658Z",
-      "format": null,
-      "last_modified": "2022-04-24T11:28:49.323978Z",
+      "last_modified": "2022-04-28T18:49:57.193120Z",
       "mimetype": "text/csv",
       "name": "train.csv",
       "path": "nb/machine_learning/house_prices/data/train.csv",
       "size": 460676,
       "type": "file",
       "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-04-28T18:51:55.514719Z",
+      "format": null,
+      "last_modified": "2022-04-28T18:49:57.193120Z",
+      "mimetype": "text/csv",
+      "name": "test.csv",
+      "path": "nb/machine_learning/house_prices/data/test.csv",
+      "size": 451405,
+      "type": "file",
+      "writable": true
     }
   ],
-  "created": "2022-04-24T11:30:46.048657Z",
+  "created": "2022-04-28T18:51:55.518719Z",
   "format": "json",
-  "last_modified": "2022-04-24T11:30:46.048657Z",
+  "last_modified": "2022-04-28T18:51:55.518719Z",
   "mimetype": null,
   "name": "data",
   "path": "nb/machine_learning/house_prices/data",
