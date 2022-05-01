@@ -2,20 +2,20 @@
   "content": [
     {
       "content": null,
-      "created": "2022-05-01T17:50:41.878729Z",
+      "created": "2022-05-01T17:57:05.206903Z",
       "format": null,
-      "last_modified": "2022-05-01T17:50:34.358687Z",
+      "last_modified": "2022-05-01T17:56:56.602364Z",
       "mimetype": null,
       "name": "parcoursup.ipynb",
       "path": "nb/stats/parcoursup/parcoursup.ipynb",
-      "size": 30196346,
+      "size": 30196347,
       "type": "notebook",
       "writable": true
     }
   ],
-  "created": "2022-05-01T17:50:41.854730Z",
+  "created": "2022-05-01T17:57:05.182901Z",
   "format": "json",
-  "last_modified": "2022-05-01T17:50:41.854730Z",
+  "last_modified": "2022-05-01T17:57:05.182901Z",
   "mimetype": null,
   "name": "parcoursup",
   "path": "nb/stats/parcoursup",

@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-05-01T17:50:41.854730Z",
+      "created": "2022-05-01T17:57:05.182901Z",
       "format": null,
-      "last_modified": "2022-05-01T17:50:41.854730Z",
+      "last_modified": "2022-05-01T17:57:05.182901Z",
       "mimetype": null,
       "name": "parcoursup",
       "path": "nb/stats/parcoursup",
@@ -13,9 +13,9 @@
       "writable": true
     }
   ],
-  "created": "2022-05-01T17:50:41.854730Z",
+  "created": "2022-05-01T17:57:05.182901Z",
   "format": "json",
-  "last_modified": "2022-05-01T17:50:41.854730Z",
+  "last_modified": "2022-05-01T17:57:05.182901Z",
   "mimetype": null,
   "name": "stats",
   "path": "nb/stats",

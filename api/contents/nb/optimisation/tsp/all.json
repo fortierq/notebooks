@@ -2,21 +2,21 @@
   "content": [
     {
       "content": null,
-      "created": "2022-05-01T17:50:41.830732Z",
+      "created": "2022-05-01T17:57:05.154900Z",
       "format": null,
-      "last_modified": "2022-05-01T17:50:33.842682Z",
+      "last_modified": "2022-05-01T17:56:55.974325Z",
       "mimetype": null,
       "name": "tsp.ipynb",
       "path": "nb/optimisation/tsp/tsp.ipynb",
-      "size": 671389,
+      "size": 671390,
       "type": "notebook",
       "writable": true
     },
     {
       "content": null,
-      "created": "2022-05-01T17:50:41.838731Z",
+      "created": "2022-05-01T17:57:05.162900Z",
       "format": null,
-      "last_modified": "2022-05-01T17:48:50.165372Z",
+      "last_modified": "2022-05-01T17:54:49.618402Z",
       "mimetype": "text/csv",
       "name": "villes_france.csv",
       "path": "nb/optimisation/tsp/villes_france.csv",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2022-05-01T17:50:41.834731Z",
+  "created": "2022-05-01T17:57:05.154900Z",
   "format": "json",
-  "last_modified": "2022-05-01T17:50:41.834731Z",
+  "last_modified": "2022-05-01T17:57:05.154900Z",
   "mimetype": null,
   "name": "tsp",
   "path": "nb/optimisation/tsp",
