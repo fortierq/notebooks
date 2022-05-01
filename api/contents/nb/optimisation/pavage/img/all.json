@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-05-01T17:57:05.150899Z",
+      "created": "2022-05-01T19:13:41.924816Z",
       "format": null,
-      "last_modified": "2022-05-01T17:54:49.542397Z",
+      "last_modified": "2022-05-01T19:11:26.748741Z",
       "mimetype": "image/png",
       "name": "ex.png",
       "path": "nb/optimisation/pavage/img/ex.png",
@@ -13,9 +13,9 @@
       "writable": true
     }
   ],
-  "created": "2022-05-01T17:57:05.150899Z",
+  "created": "2022-05-01T19:13:41.924816Z",
   "format": "json",
-  "last_modified": "2022-05-01T17:57:05.150899Z",
+  "last_modified": "2022-05-01T19:13:41.924816Z",
   "mimetype": null,
   "name": "img",
   "path": "nb/optimisation/pavage/img",
