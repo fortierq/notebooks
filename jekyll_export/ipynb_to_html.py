@@ -8,9 +8,9 @@ import base64
             
 dir = Path(__file__).parents[1]
 dir_nb = dir / "nb"
-def convert(files):
+def convert(files, article=False):
     os.chdir(dir / "jekyll_export")
-    re_img = re.compile('<img src="(.*\.png)"')
+    re_img = re.compile('<img src=(.*\.png)>')
     re_title = re.compile('<h1.*>(.*)<a.*</h1>')
     for file in files:
         file = Path(file).resolve()
@@ -23,7 +23,8 @@ def convert(files):
                     return f'<img src="data:image/png;base64,{s}"'
 
         if str(file).find("checkpoint") == -1:
-            output = Path("/home/qfortier/Documents/code/fortierq.github.io/_pages/nb") / file.with_suffix(".html").name.lower()
+            path = "/home/qfortier/Documents/code/fortierq.github.io/" + ("_posts" if article else "_pages/nb")
+            output = Path(path) / file.with_suffix(".html").name.lower()
             Path.mkdir(output.parent, parents=True, exist_ok=True)
             print(f"\nConvert notebook {file} to {output}\n")
             # TODO
@@ -38,22 +39,39 @@ def convert(files):
                 html_output = re_img.sub(repl_img, html_output)
             with open(output, "w") as f:
                 url = file.stem.lower().replace(' ', '')
-                f.write(f"---\npermalink: /nb/{url}/\nlayout: nb\nauthor_profile: false\ntoc: true\ntoc_label: Sommaire\ntoc_sticky: true\n---\n\n")
+                if article:
+                    f.write(f"""---
+title: "How to import local modules with Python"
+tags:
+  - 
+toc: true
+toc_sticky: true
+header:
+  teaser: 
+  og_image: 
+---\n""")
+                else:
+                    f.write(f"---\npermalink: /nb/{url}/\nlayout: nb\nauthor_profile: false\ntoc: true\ntoc_label: Sommaire\ntoc_sticky: true\n---\n\n")
                 f.write("{% raw %}\n")  # to prevent liquid processing
                 f.write(html_output.replace("&#182;", ''))
                 f.write("{% endraw %}\n")
 
 
 files = [
-    dir_nb / "machine_learning/SVM.ipynb",
-    dir_nb / "machine_learning/regression_lineaire.ipynb",
-    dir_nb / "machine_learning/KMeans.ipynb",
-    dir_nb / "machine_learning/logistic.ipynb",
-    dir_nb / "image_processing/hist_equal/hist_equal.ipynb",
-    dir_nb / "optimisation/pavage/pavage.ipynb", 
-    dir_nb / "deep_learning" / "DNN.ipynb",
-    dir_nb / "deep_learning/green_rover/green_rover.ipynb",
-    dir_nb / "machine_learning" / "voitures" / "voitures_clustering.ipynb",
-    dir_nb / "image_processing" / "ray_tracing" / "ray_tracing.ipynb",
+    # dir_nb / "machine_learning/SVM.ipynb",
+    # dir_nb / "machine_learning/regression_lineaire.ipynb",
+    # dir_nb / "machine_learning/KMeans.ipynb",
+    # dir_nb / "machine_learning/logistic.ipynb",
+    # dir_nb / "image_processing/hist_equal/hist_equal.ipynb",
+    # dir_nb / "optimisation/pavage/pavage.ipynb", 
+    # dir_nb / "deep_learning" / "DNN.ipynb",
+    # dir_nb / "machine_learning" / "house_prices" / "house_prices.ipynb",
+    # dir_nb / "deep_learning/green_rover/green_rover.ipynb",
+    # dir_nb / "machine_learning" / "voitures" / "voitures_clustering.ipynb",
+    # dir_nb / "image_processing" / "ray_tracing" / "ray_tracing.ipynb",
+    # dir_nb / "optimisation" / "tsp" / "tsp.ipynb",
+    # dir_nb / "machine_learning" / "mnist" / "mnist_knn.ipynb",
+    # dir_nb/ "stats/parcoursup/parcoursup.ipynb"
+    dir_nb/"optimisation/almost_magic/2022-05-01-jane-street-almost-magic.ipynb"
 ]
-convert(files)
+convert(files, article=True)
