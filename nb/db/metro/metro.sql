@@ -1,6 +1,6 @@
 BEGIN TRANSACTION;
 CREATE TABLE metro (
-	"réseau" TEXT, 
+	reseau TEXT, 
 	station TEXT, 
 	trafic TEXT, 
 	correspondance_1 TEXT, 
