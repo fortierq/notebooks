@@ -1,0 +1,10 @@
+{
+  "http.systemCertificates": true,
+  "http.proxyStrictSSL": false,
+  "chat.tools.terminal.autoApprove": {
+    "/^docker run --rm --mount source=uv-cache,target=/home/vscode/\\.cache/uv,type=volume vsc-notebooks-47551a878295a9745c2d12c5b1deece6c3d7f889e3cec2567469073aadc83998 sh -lc 'echo ok'$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}
